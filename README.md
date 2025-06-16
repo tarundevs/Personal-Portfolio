@@ -50,3 +50,5 @@ npm run build
 ```
 
 The build files will be generated in the `dist` directory.
+
+To access the website, go to https://tarun-warrier.vercel.app/

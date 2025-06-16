@@ -60,19 +60,7 @@ export const Contact = () => {
                 📧 Contact Information
               </h4>
               <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <span className={`${
-                    isDarkMode ? 'text-primary' : 'text-red-600'
-                  } text-lg`}>📍</span>
-                  <div>
-                    <p className={`font-medium ${
-                      isDarkMode ? 'text-foreground' : 'text-black'
-                    }`}>Location</p>
-                    <p className={`text-sm ${
-                      isDarkMode ? 'text-muted-foreground' : 'text-black'
-                    }`}>Bangalore, India</p>
-                  </div>
-                </div>
+                
                 <div className="flex items-start gap-3">
                   <span className={`${
                     isDarkMode ? 'text-primary' : 'text-red-600'

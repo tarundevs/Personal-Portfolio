@@ -41,12 +41,12 @@ export const HomeSection = () => {
                                 ? 'text-primary' 
                                 : 'bg-gradient-to-r from-black to-red-600 bg-clip-text text-transparent'
                         }`}>
-                            Ethereal Stream
+                            my portfolio website
                         </span>
                     </h1>
 
                     <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        Where gestures become words, and silence finds its voice
+                    Bridging the gap between AI innovation and real world applications
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
@@ -59,7 +59,7 @@ export const HomeSection = () => {
                                 : 'bg-gradient-to-r from-black to-red-600 text-white hover:scale-110 hover:shadow-lg hover:-translate-y-1 hover:from-red-600 hover:to-black'
                             }`}
                         >
-                            check it out
+                            view my work
                         </a>
                     </div>
                 </div>

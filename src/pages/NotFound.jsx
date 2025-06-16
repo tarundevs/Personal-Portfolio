@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavBar } from "../components/NavBar.jsx";
 import { Footer } from "../components/Footer.jsx";
-import { Starbackground } from "@/components/StarBackground.jsx";
+import { Background } from "@/components/Background.jsx";
 import { ThemeToggle } from "@/components/ThemeToggle.jsx";
 
 export const NotFound = () => {
@@ -37,7 +37,7 @@ export const NotFound = () => {
     <div className="min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden">
       {/* Background effects */}
       <ThemeToggle />
-      <Starbackground />
+      <Background />
       
       {/* Navigation Bar */}
       <NavBar />

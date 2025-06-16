@@ -41,18 +41,18 @@ export const Footer = () => {
             <div className="lg:col-span-2">
               <Link to="/" className={cn("text-2xl font-bold flex items-center mb-4 group transition-all duration-300", isDarkMode ? "text-foreground" : "text-white")}>
                 <span className="relative">
-                  <span className={cn("text-glow transition-all duration-300 group-hover:scale-105", isDarkMode ? "text-primary" : "text-white")}>Ethereal</span>
-                  <span className={cn("ml-1 transition-colors duration-300", isDarkMode ? "text-foreground/80" : "text-white/90")}>Stream</span>
+                  <span className={cn("text-glow transition-all duration-300 group-hover:scale-105", isDarkMode ? "text-primary" : "text-white")}>Tarun</span>
+                  <span className={cn("ml-1 transition-colors duration-300", isDarkMode ? "text-foreground/80" : "text-white/90")}>Warrier</span>
                 </span>
               </Link>
-              <p className={cn("text-sm leading-relaxed mb-6 max-w-md", isDarkMode ? "text-muted-foreground" : "text-white/70")}>Breaking communication barriers with innovative ASL and speech technology. Making conversations more accessible for everyone.</p>
+              {/* <p className={cn("text-sm leading-relaxed mb-6 max-w-md", isDarkMode ? "text-muted-foreground" : "text-white/70")}>Breaking communication barriers with innovative ASL and speech technology. Making conversations more accessible for everyone.</p> */}
             </div>
           </div>
 
           {/* Bottom Section */}
           <div className={cn("pt-8 border-t flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0", isDarkMode ? "border-border/50" : "border-white/10")}>
             <div className={cn("text-sm flex items-center space-x-2", isDarkMode ? "text-muted-foreground" : "text-white/60")}>
-              <span>© {new Date().getFullYear()} Ethereal Stream.</span>
+              <span>© {new Date().getFullYear()} Tarun Warrier.</span>
             </div>
             <div className={cn("text-xs", isDarkMode ? "text-muted-foreground/80" : "text-white/50")}>Breaking barriers, building connections</div>
           </div>

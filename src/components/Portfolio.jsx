@@ -62,7 +62,6 @@ export const Portfolio = () => {
         signals: "PCG Audio"
       },
       details: "Implemented lightweight CNN solution with MFCC signal processing for resource-constrained embedded systems.",
-      pdf: "C:\Users\LENOVO\Downloads\CERTIFICATE of Awards 2024 anveshan - Participants - Tarun Warrier.pdf"
     },
     {
       id: 3,
@@ -78,7 +77,6 @@ export const Portfolio = () => {
         application: "Grid Analysis"
       },
       details: "Created unsupervised machine learning clustering algorithm for intelligent voltage pattern recognition.",
-      image: "https://github.com/tarundevs/Power-Grid-Analysis/blob/main/images/PowerGrid.png?raw=true"
     },
     {
       id: 4,

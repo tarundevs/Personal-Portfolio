@@ -53,14 +53,14 @@ export const AboutUs = () => {
               isDarkMode ? 'text-muted-foreground' : 'text-black bg-white/10'
             }`}>
               I'm Tarun Warrier, a passionate AI/ML engineer currently pursuing B.E. (Hons.) in 
-              Electronics and Communication Engineering at BITS Pilani, Goa. I specialize in 
-              developing cutting-edge AI solutions for healthcare and embedded systems.
+              Electronics and Communication Engineering at BITS Pilani, Goa. I am enthusiastic in
+              developing AI and edge AI solutions for healthcare and other domains.
             </p>
             <p className={`${
               isDarkMode ? 'text-muted-foreground' : 'text-black bg-white/10'
             }`}>
-              Currently working on the NeuroValve Project at Molbio Diagnostics, where I'm developing 
-              EdgeAI implementations for automated valvular heart disease diagnosis using multimodal 
+              Currently working on the NeuroValve Project under a sponsorship of Molbio Diagnostics, where 
+              I'm developing an Edge AI implementations for automated valvular heart disease diagnosis using multimodal 
               data including PCG audio signals, ECG recordings, and medical imaging.
             </p>
             <p className={`${
@@ -106,40 +106,6 @@ export const AboutUs = () => {
                 </div>
               </div>
             </div>
-
-            <div className={`p-6 rounded-lg border backdrop-blur-sm card-hover ${
-              isDarkMode 
-                ? 'border-border bg-card/50' 
-                : 'border-gray-200 bg-white/10'
-            }`}>
-              <h4 className={`text-lg font-semibold mb-4 ${
-                isDarkMode ? 'text-foreground' : 'text-black'
-              }`}>
-                Recent Achievements
-              </h4>
-              <div className="space-y-2">
-                <div className={`text-sm ${
-                  isDarkMode ? 'text-muted-foreground' : 'text-gray-700'
-                }`}>
-                  🏆 Molbio Student Innovation Award (2024)
-                </div>
-                <div className={`text-sm ${
-                  isDarkMode ? 'text-muted-foreground' : 'text-gray-700'
-                }`}>
-                  🚀 95% accuracy in VHD diagnosis on microcontroller
-                </div>
-                <div className={`text-sm ${
-                  isDarkMode ? 'text-muted-foreground' : 'text-gray-700'
-                }`}>
-                  ⚡ 94% accuracy in power grid analysis using CNN-LSTM
-                </div>
-                <div className={`text-sm ${
-                  isDarkMode ? 'text-muted-foreground' : 'text-gray-700'
-                }`}>
-                  🎯 Multiple hackathon wins in quantum computing & physics
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         
@@ -168,17 +134,6 @@ export const AboutUs = () => {
             }`}
           >
             LinkedIn Profile
-          </a>
-
-          <a 
-            href="mailto:tarunwarrier1@gmail.com"
-            className={`px-6 py-2 rounded-full border transition-colors duration-300 card-hover ${
-              isDarkMode 
-                ? 'border-primary text-primary hover:bg-primary/10' 
-                : 'border-red-600 text-red-600 hover:bg-red-600/10 bg-white/10 backdrop-blur-sm'
-            }`}
-          >
-            Get In Touch
           </a>
         </div>
       </div>
